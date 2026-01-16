@@ -1,0 +1,135 @@
+BCF
+Mean of each column:
+       empirical_ATE_RMSE         empirical_ATE_MAE        empirical_ATE_MAPE 
+                0.4560335                 0.3224911                 0.1859228 
+        empirical_ATE_len       empirical_ATE_cover     theoretical_CATE_RMSE 
+                0.7189162                 0.6253000                 2.0955261 
+     theoretical_CATE_MAE     theoretical_CATE_MAPE      theoretical_CATE_len 
+                1.6885112                 0.4086076                 2.2081301 
+   theoretical_CATE_cover    SE_empirical_ATE_cover    AE_empirical_ATE_cover 
+                0.3563369                 0.1131463                 0.3247000 
+SE_theoretical_CATE_cover AE_theoretical_CATE_cover 
+                0.3643969                 0.5936631 
+
+Standard deviation of each column:
+       empirical_ATE_RMSE         empirical_ATE_MAE        empirical_ATE_MAPE 
+               0.08056746                0.03833623                0.02055674 
+        empirical_ATE_len       empirical_ATE_cover     theoretical_CATE_RMSE 
+               0.07225172                0.08828438                1.08764883 
+     theoretical_CATE_MAE     theoretical_CATE_MAPE      theoretical_CATE_len 
+               0.91093342                0.08041883                0.81892521 
+   theoretical_CATE_cover    SE_empirical_ATE_cover    AE_empirical_ATE_cover 
+               0.10991715                0.05619048                0.08828438 
+SE_theoretical_CATE_cover AE_theoretical_CATE_cover 
+               0.11721312                0.10991715 
+ps-BARTMean of each column:
+       empirical_ATE_RMSE         empirical_ATE_MAE        empirical_ATE_MAPE 
+              0.254532867               0.207449191               0.128975007 
+        empirical_ATE_len       empirical_ATE_cover     theoretical_CATE_RMSE 
+              1.293230084               0.991320000               0.807959765 
+     theoretical_CATE_MAE     theoretical_CATE_MAPE      theoretical_CATE_len 
+              0.651514264               0.198084536               2.577365439 
+   theoretical_CATE_cover    SE_empirical_ATE_cover    AE_empirical_ATE_cover 
+              0.916662640               0.002970240               0.049840000 
+SE_theoretical_CATE_cover AE_theoretical_CATE_cover 
+              0.008116086               0.063324880 
+
+Standard deviation of each column:
+       empirical_ATE_RMSE         empirical_ATE_MAE        empirical_ATE_MAPE 
+              0.088262025               0.089408651               0.057934960 
+        empirical_ATE_len       empirical_ATE_cover     theoretical_CATE_RMSE 
+              0.132196242               0.035716301               0.493564419 
+     theoretical_CATE_MAE     theoretical_CATE_MAPE      theoretical_CATE_len 
+              0.401009050               0.043275389               0.771100148 
+   theoretical_CATE_cover    SE_empirical_ATE_cover    AE_empirical_ATE_cover 
+              0.084115757               0.005252267               0.022161355 
+SE_theoretical_CATE_cover AE_theoretical_CATE_cover 
+              0.017991952               0.064401245 
+For empirical_ATE_RMSE
+Mann-Whitney U Test:
+[1] 1.528206e-27
+Kruskal-Wallis H Test:
+[1] 1.50787e-27
+Levene's Test:
+[1] 0.198762
+Brown-Forsythe Test:
+[1] 0.2983941
+For empirical_ATE_MAE
+Fligner-Policello test:
+[1] 1.861362e-31
+Levene's Test:
+[1] 2.690771e-10
+Brown-Forsythe Test:
+[1] 2.099927e-08
+For empirical_ATE_MAPE
+Fligner-Policello test:
+[1] 1.329184e-19
+Levene's Test:
+[1] 6.383183e-14
+Brown-Forsythe Test:
+[1] 5.850552e-10
+For theoretical_CATE_RMSE
+Fligner-Policello test:
+[1] 1.259127e-166
+Levene's Test:
+[1] 7.147944e-06
+Brown-Forsythe Test:
+[1] 0.000161386
+For theoretical_CATE_MAE
+Fligner-Policello test:
+[1] 2.751017e-163
+Levene's Test:
+[1] 5.061046e-06
+Brown-Forsythe Test:
+[1] 0.0001334776
+For theoretical_CATE_MAPE
+Fligner-Policello test:
+[1] 0
+Levene's Test:
+[1] 6.130275e-05
+Brown-Forsythe Test:
+[1] 6.177363e-05
+For empirical_ATE_len
+Fligner-Policello test:
+[1] 0
+Levene's Test:
+[1] 3.744373e-06
+Brown-Forsythe Test:
+[1] 1.40168e-05
+For theoretical_CATE_len
+Mann-Whitney U Test:
+[1] 1.211228e-06
+Kruskal-Wallis H Test:
+[1] 1.203784e-06
+Levene's Test:
+[1] 0.4191356
+Brown-Forsythe Test:
+[1] 0.3994809
+For SE_empirical_ATE_cover
+Fligner-Policello test:
+[1] 0
+Levene's Test:
+[1] 5.754957e-26
+Brown-Forsythe Test:
+[1] 8.917751e-26
+For AE_empirical_ATE_cover
+Fligner-Policello test:
+[1] 0
+Levene's Test:
+[1] 1.319235e-21
+Brown-Forsythe Test:
+[1] 2.212575e-21
+For SE_theoretical_CATE_cover
+Fligner-Policello test:
+[1] 0
+Levene's Test:
+[1] 6.362047e-19
+Brown-Forsythe Test:
+[1] 1.227707e-19
+For AE_theoretical_CATE_cover
+Fligner-Policello test:
+[1] 0
+Levene's Test:
+[1] 0.0007499992
+Brown-Forsythe Test:
+[1] 0.000183307
